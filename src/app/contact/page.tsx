@@ -83,7 +83,7 @@ export default function Contact() {
               </a>
               .
             </p>
-            <form className="space-y-6">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
