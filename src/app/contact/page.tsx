@@ -71,6 +71,18 @@ export default function Contact() {
 
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-6">Send us a Message</h2>
+            <p className="text-gray-700 mb-6">
+              Prefer to use our online form?{' '}
+              <a
+                href="https://docs.google.com/forms/d/YOUR_FORM_ID/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline font-medium"
+              >
+                Click here to fill out our Google contact form
+              </a>
+              .
+            </p>
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
