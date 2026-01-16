@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="min-h-screen py-16">
@@ -45,24 +47,20 @@ export default function About() {
 
         <section>
           <h2 className="text-3xl font-semibold mb-6">Leadership Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold">Dr. Amara Nwosu</h3>
-              <p className="text-gray-600">Founder & CEO</p>
-              <p className="text-sm text-gray-500 mt-2">Former Data Scientist at Google, PhD in Statistics</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold">Prof. Kofi Mensah</h3>
-              <p className="text-gray-600">Academic Director</p>
-              <p className="text-sm text-gray-500 mt-2">Professor of Data Science, University of Ghana</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold">Ms. Zainab Adebayo</h3>
-              <p className="text-gray-600">Head of Partnerships</p>
-              <p className="text-sm text-gray-500 mt-2">Former UN Data Analyst, MBA from Harvard</p>
+          <div className="flex justify-center">
+            <div className="text-center max-w-sm">
+              <div className="relative w-48 h-48 mx-auto mb-6">
+                <Image
+                  src="/team/wonder-bediako.jpg"
+                  alt="Wonder Bediako"
+                  fill
+                  className="rounded-full object-cover shadow-lg"
+                />
+              </div>
+              <h3 className="text-2xl font-bold mb-2">Wonder Bediako</h3>
+              <p className="text-blue-600 font-semibold mb-1">Chief Executive Officer</p>
+              <p className="text-gray-600 mb-1">Data Scientist / Researcher</p>
+              <p className="text-gray-600">Community Builder</p>
             </div>
           </div>
         </section>
