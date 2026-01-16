@@ -166,33 +166,6 @@ export default function Contact() {
             </form>
           </div>
         </div>
-
-        <section className="mt-16">
-          <h2 className="text-3xl font-semibold text-center mb-6">Visit Our Locations</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">Accra, Ghana</h3>
-              <p className="text-gray-700 mb-4">Our headquarters and main campus</p>
-              <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">Map Placeholder</span>
-              </div>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">Nairobi, Kenya</h3>
-              <p className="text-gray-700 mb-4">East Africa regional office</p>
-              <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">Map Placeholder</span>
-              </div>
-            </div>
-            <div className="text-center">
-              <h3 className="text-xl font-semibold mb-4">Johannesburg, South Africa</h3>
-              <p className="text-gray-700 mb-4">Southern Africa regional office</p>
-              <div className="h-48 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">Map Placeholder</span>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   );
