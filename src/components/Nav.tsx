@@ -41,9 +41,9 @@ const Nav = () => {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className={`text-sm px-3 py-2 rounded-md transition-colors ${isActive
-                      ? 'text-blue-600 font-semibold bg-blue-50'
-                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+                  className={`text-xs px-2 py-2 rounded-md transition-colors ${isActive
+                    ? 'text-blue-600 font-semibold bg-blue-50'
+                    : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
                     }`}
                 >
                   {link.name}
