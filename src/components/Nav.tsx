@@ -1,7 +1,23 @@
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const Nav = () => {
+  const pathname = usePathname();
+
+  const links = [
+    { name: 'Home', href: '/' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Programs', href: '/programs' },
+    { name: 'Admissions', href: '/admissions' },
+    { name: 'Faculty & Mentors', href: '/faculty' },
+    { name: 'Community & Impact', href: '/community' },
+    { name: 'Blog / Insights', href: '/blog' },
+    { name: 'Contact Us', href: '/#contact' },
+  ];
+
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,14 +35,21 @@ const Nav = () => {
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">
-            <Link href="/" className="text-sm text-gray-700 hover:text-gray-900">Home</Link>
-            <Link href="/about" className="text-sm text-gray-700 hover:text-gray-900">About Us</Link>
-            <Link href="/programs" className="text-sm text-gray-700 hover:text-gray-900">Programs</Link>
-            <Link href="/admissions" className="text-sm text-gray-700 hover:text-gray-900">Admissions</Link>
-            <Link href="/faculty" className="text-sm text-gray-700 hover:text-gray-900">Faculty & Mentors</Link>
-            <Link href="/community" className="text-sm text-gray-700 hover:text-gray-900">Community & Impact</Link>
-            <Link href="/blog" className="text-sm text-gray-700 hover:text-gray-900">Blog / Insights</Link>
-            <Link href="/#contact" className="text-sm text-gray-700 hover:text-gray-900">Contact Us</Link>
+            {links.map((link) => {
+              const isActive = pathname === link.href;
+              return (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className={`text-sm px-3 py-2 rounded-md transition-colors ${isActive
+                      ? 'text-blue-600 font-semibold bg-blue-50'
+                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+                    }`}
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
           </div>
           <div className="flex items-center">
             <Link href="/admissions" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
