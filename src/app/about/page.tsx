@@ -32,7 +32,7 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-semibold mb-6">Our Story</h2>
           <p className="text-lg text-gray-700 mb-6">
-            Founded in 2020, Sankofa Data Institute emerged from the recognition that while Africa
+            Founded in 2024, Sankofa Data Institute emerged from the recognition that while Africa
             generates vast amounts of data, there was a critical shortage of skilled professionals
             to analyze and leverage this data for development.
           </p>
