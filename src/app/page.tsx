@@ -58,7 +58,7 @@ export default function Home() {
               <p className="text-gray-600">Students Trained</p>
             </div>
             <div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">5</div>
               <p className="text-gray-600">Partner Organizations</p>
             </div>
             <div>
@@ -66,7 +66,7 @@ export default function Home() {
               <p className="text-gray-600">Employment Rate</p>
             </div>
             <div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">20+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">3+</div>
               <p className="text-gray-600">Countries Reached</p>
             </div>
           </div>
