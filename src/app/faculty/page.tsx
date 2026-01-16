@@ -11,90 +11,12 @@ export default function Faculty() {
             machine learning, and analytics. Our faculty brings real-world expertise to the classroom.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-center mb-2">Dr. Sarah Johnson</h3>
-              <p className="text-gray-600 text-center mb-4">Lead Instructor - Machine Learning</p>
-              <p className="text-sm text-gray-700 mb-4">
-                Former Principal Data Scientist at Netflix. PhD in Computer Science from MIT.
-                Expert in deep learning and recommendation systems.
-              </p>
-              <div className="text-center">
-                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">Python</span>
-                <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs ml-2">TensorFlow</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-center mb-2">Prof. Michael Chen</h3>
-              <p className="text-gray-600 text-center mb-4">Statistics & Data Analysis</p>
-              <p className="text-sm text-gray-700 mb-4">
-                Professor at Stanford University. Author of "Modern Statistical Methods for Data Science".
-                Specializes in Bayesian statistics and experimental design.
-              </p>
-              <div className="text-center">
-                <span className="inline-block bg-purple-100 text-purple-800 px-2 py-1 rounded-full text-xs">R</span>
-                <span className="inline-block bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full text-xs ml-2">Statistics</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-center mb-2">Ms. Amina Hassan</h3>
-              <p className="text-gray-600 text-center mb-4">Data Visualization & Business Intelligence</p>
-              <p className="text-sm text-gray-700 mb-4">
-                Data Visualization Lead at Google. Masters in Information Design from RISD.
-                Expert in Tableau, Power BI, and D3.js.
-              </p>
-              <div className="text-center">
-                <span className="inline-block bg-red-100 text-red-800 px-2 py-1 rounded-full text-xs">Tableau</span>
-                <span className="inline-block bg-indigo-100 text-indigo-800 px-2 py-1 rounded-full text-xs ml-2">D3.js</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-center mb-2">Dr. James Wilson</h3>
-              <p className="text-gray-600 text-center mb-4">Big Data & Cloud Computing</p>
-              <p className="text-sm text-gray-700 mb-4">
-                Former AWS Solutions Architect. PhD in Distributed Systems.
-                Expert in Hadoop, Spark, and cloud architectures.
-              </p>
-              <div className="text-center">
-                <span className="inline-block bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs">AWS</span>
-                <span className="inline-block bg-teal-100 text-teal-800 px-2 py-1 rounded-full text-xs ml-2">Spark</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-center mb-2">Prof. Fatima Al-Zahra</h3>
-              <p className="text-gray-600 text-center mb-4">Ethics in Data Science</p>
-              <p className="text-sm text-gray-700 mb-4">
-                Professor of Ethics and Technology at Oxford. Author of "Ethical AI in Practice".
-                Focuses on responsible AI and data privacy.
-              </p>
-              <div className="text-center">
-                <span className="inline-block bg-pink-100 text-pink-800 px-2 py-1 rounded-full text-xs">Ethics</span>
-                <span className="inline-block bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs ml-2">Policy</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold text-center mb-2">Mr. David Thompson</h3>
-              <p className="text-gray-600 text-center mb-4">Data Engineering</p>
-              <p className="text-sm text-gray-700 mb-4">
-                Senior Data Engineer at Airbnb. Expert in data pipelines, ETL processes,
-                and database design. 10+ years in industry.
-              </p>
-              <div className="text-center">
-                <span className="inline-block bg-cyan-100 text-cyan-800 px-2 py-1 rounded-full text-xs">SQL</span>
-                <span className="inline-block bg-lime-100 text-lime-800 px-2 py-1 rounded-full text-xs ml-2">Airflow</span>
-              </div>
-            </div>
+          <div className="bg-white p-8 rounded-lg shadow-md text-center">
+            <p className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
+              Our faculty comprises distinguished experts from top-tier technology companies and renowned academic institutions.
+              With a wealth of experience in data science, machine learning, and AI ethics, they bring a blend of rigorous theoretical knowledge and practical industry insights to the classroom.
+              We are dedicated to providing world-class education that empowers students to solve real-world challenges.
+            </p>
           </div>
         </section>
 

@@ -1,10 +1,10 @@
 import Link from 'next/link';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin } from 'react-icons/fa';
 import HeroBackground from '../components/HeroBackground';
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       {/* Hero Section */}
       <section className="relative text-white py-20 min-h-[600px] flex items-center overflow-hidden">
         <HeroBackground />
@@ -90,45 +90,56 @@ export default function Home() {
 
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1 mr-4">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                    </svg>
+                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                    <FaEnvelope className="w-5 h-5 text-blue-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Email</h4>
+                    <h4 className="font-semibold text-lg">Email</h4>
                     <p className="text-gray-700">wonderbediako@gmail.com</p>
                     <p className="text-sm text-gray-500">General inquiries and partnerships</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center mt-1 mr-4">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                    </svg>
+                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                    <FaPhone className="w-5 h-5 text-green-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Phone</h4>
-                    <p className="text-gray-700">+233244387424 / 0505223732</p>
+                    <h4 className="font-semibold text-lg">Phone</h4>
+                    <p className="text-gray-700">+233 24 438 7424 / 050 522 3732</p>
                     <p className="text-sm text-gray-500">Mon-Fri, 9AM-6PM GMT</p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-purple-600 rounded-full flex items-center justify-center mt-1 mr-4">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                    </svg>
+                  <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                    <FaMapMarkerAlt className="w-5 h-5 text-purple-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Address</h4>
+                    <h4 className="font-semibold text-lg">Address</h4>
                     <p className="text-gray-700">
                       Sankofa Data Institute<br />
                       ROSA Street, GE<br />
                       Accra, Ghana
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                    <FaLinkedin className="w-5 h-5 text-[#0077b5]" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg">LinkedIn</h4>
+                    <a
+                      href="https://www.linkedin.com/company/sankofa-data-institute"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sankofa Data Institute
+                    </a>
+                    <p className="text-sm text-gray-500">Follow us for updates</p>
                   </div>
                 </div>
               </div>
