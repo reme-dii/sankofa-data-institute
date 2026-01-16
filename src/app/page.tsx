@@ -32,20 +32,20 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Our Programs</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gradient-to-br from-cyan-500 to-blue-600 p-6 rounded-lg shadow-md text-white">
               <h3 className="text-xl font-semibold mb-4">Data Science Bootcamp</h3>
-              <p className="text-gray-600 mb-4">Intensive 12-week program covering Python, machine learning, and data visualization.</p>
-              <Link href="/programs" className="text-blue-600 hover:text-blue-800">Learn More →</Link>
+              <p className="text-white/90 mb-4">Intensive 12-week program covering Python, machine learning, and data visualization.</p>
+              <Link href="/programs" className="text-white font-medium hover:underline">Learn More →</Link>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gradient-to-br from-emerald-500 to-teal-600 p-6 rounded-lg shadow-md text-white">
               <h3 className="text-xl font-semibold mb-4">Analytics Certification</h3>
-              <p className="text-gray-600 mb-4">Professional certification in business analytics and data-driven decision making.</p>
-              <Link href="/programs" className="text-blue-600 hover:text-blue-800">Learn More →</Link>
+              <p className="text-white/90 mb-4">Professional certification in business analytics and data-driven decision making.</p>
+              <Link href="/programs" className="text-white font-medium hover:underline">Learn More →</Link>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-gradient-to-br from-orange-400 to-red-500 p-6 rounded-lg shadow-md text-white">
               <h3 className="text-xl font-semibold mb-4">Corporate Training</h3>
-              <p className="text-gray-600 mb-4">Customized training solutions for organizations across Africa.</p>
-              <Link href="/programs" className="text-blue-600 hover:text-blue-800">Learn More →</Link>
+              <p className="text-white/90 mb-4">Customized training solutions for organizations across Africa.</p>
+              <Link href="/programs" className="text-white font-medium hover:underline">Learn More →</Link>
             </div>
           </div>
         </div>
