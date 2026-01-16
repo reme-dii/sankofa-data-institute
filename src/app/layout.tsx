@@ -1,14 +1,7 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
 import "./globals.css";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-
-const roboto = Roboto({
-  weight: ['400', '500', '700'],
-  subsets: ["latin"],
-  variable: "--font-roboto",
-});
 
 export const metadata: Metadata = {
   title: "Sankofa Data Institute - Empowering Africa Through Data Science",
@@ -22,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} antialiased`}
-      >
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+      </head>
+      <body className="antialiased">
         <Nav />
         {children}
         <Footer />
