@@ -115,7 +115,7 @@ export default function Programs() {
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-4">Professional Field Survey Solutions</h3>
               <p className="text-lg text-gray-700 mb-6">
-                From study design to cleaned final dataset — I handle every stage of your survey project.
+                From study design to cleaned final dataset — we handle every stage of your survey project.
               </p>
               <a href="https://forms.gle/ZRn1Qi9LD8HvJ3cU8" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 inline-block">
                 Get a Free Quote
@@ -135,7 +135,7 @@ export default function Programs() {
             </div>
 
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4">What I Offer</h3>
+              <h3 className="text-xl font-semibold mb-4">What We Offer</h3>
               <h4 className="text-lg font-medium mb-4">Survey Lifecycle – End-to-End Services</h4>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -192,7 +192,7 @@ export default function Programs() {
             </div>
 
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4">Project Types I Work With</h3>
+              <h3 className="text-xl font-semibold mb-4">Project Types We Work With</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <ul className="text-gray-700 space-y-1">
                   <li>• Academic Research (Theses, Dissertations, Journal Papers)</li>
@@ -208,7 +208,7 @@ export default function Programs() {
             </div>
 
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4">Why Work With Me?</h3>
+              <h3 className="text-xl font-semibold mb-4">Why Work With Us?</h3>
               <ul className="text-gray-700 space-y-2">
                 <li>• 100% focus on data quality & scientific rigor</li>
                 <li>• Transparent fieldwork progress reporting</li>
@@ -222,7 +222,7 @@ export default function Programs() {
               <h3 className="text-2xl font-semibold mb-4">Ready to Start Your Survey Project?</h3>
               <p className="text-lg text-gray-700 mb-6">
                 Whether you already have a clear plan or need help from scratch…<br />
-                I'm here to make your data collection smooth, reliable and stress-free.
+                We're here to make your data collection smooth, reliable and stress-free.
               </p>
               <div className="space-x-4">
                 <a href="https://forms.gle/ZRn1Qi9LD8HvJ3cU8" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 inline-block font-semibold">
