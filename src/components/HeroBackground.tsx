@@ -9,6 +9,10 @@ const images = [
     "/hero/hero3.jpg",
     "/hero/hero4.jpg",
     "/hero/hero5.jpg",
+    "/hero/hero6.jpg",
+    "/hero/hero7.jpg",
+    "/hero/hero8.jpg",
+    "/hero/hero9.jpg",
 ];
 
 export default function HeroBackground() {
