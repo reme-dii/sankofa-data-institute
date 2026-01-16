@@ -30,7 +30,7 @@ export default function Programs() {
                   <li><strong>Duration:</strong> 12 weeks</li>
                   <li><strong>Format:</strong> Online with live sessions</li>
                   <li><strong>Prerequisites:</strong> Basic math and computer skills</li>
-                  <li><strong>Cost:</strong> $2,500 (scholarships available)</li>
+                  <li><strong>Cost:</strong> ₵2,500 (scholarships available)</li>
                 </ul>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Programs() {
                   <li><strong>Duration:</strong> 8 weeks</li>
                   <li><strong>Format:</strong> Part-time, evenings/weekends</li>
                   <li><strong>Prerequisites:</strong> 2+ years work experience</li>
-                  <li><strong>Cost:</strong> $1,800</li>
+                  <li><strong>Cost:</strong> ₵1,800</li>
                 </ul>
               </div>
             </div>
