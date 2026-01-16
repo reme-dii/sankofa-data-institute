@@ -17,10 +17,10 @@ export default function Home() {
             bridging the gap between African talent and global opportunities.
           </p>
           <div className="space-x-4">
-            <Link href="/admissions" className="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors">
+            <Link href="/admissions" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-md font-semibold hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg">
               Apply Now
             </Link>
-            <Link href="/programs" className="border border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+            <Link href="/programs" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-md font-semibold hover:from-blue-700 hover:to-purple-700 transition-all shadow-lg">
               Explore Programs
             </Link>
           </div>
