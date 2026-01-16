@@ -123,7 +123,7 @@ export default function Home() {
                     <h4 className="font-semibold">Address</h4>
                     <p className="text-gray-700">
                       Sankofa Data Institute<br />
-                      123 Innovation Drive<br />
+                      ROSA Street, GE<br />
                       Accra, Ghana
                     </p>
                   </div>
