@@ -10,11 +10,6 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Sankofa Data Institute - Empowering Africa Through Data Science",
   description: "Leading data science and analytics training institute focused on Africa. Programs for students, professionals, and organizations.",
