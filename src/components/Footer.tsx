@@ -28,10 +28,10 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-md font-semibold mb-4">Contact</h4>
-            <p className="text-gray-300">Email: info@sankofadata.org</p>
-            <p className="text-gray-300">Phone: +1 (123) 456-7890</p>
+            <p className="text-gray-300">Email: wonderbediako@gmail.com</p>
+            <p className="text-gray-300">Phone: +233244387424 / 0505223732</p>
             <div className="mt-4">
-              <Link href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+              <Link href="/#contact" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
                 Partner With Us
               </Link>
             </div>
