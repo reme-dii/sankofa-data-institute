@@ -18,7 +18,7 @@ const Nav = () => {
             <Link href="/faculty" className="text-sm text-gray-700 hover:text-gray-900">Faculty & Mentors</Link>
             <Link href="/community" className="text-sm text-gray-700 hover:text-gray-900">Community & Impact</Link>
             <Link href="/blog" className="text-sm text-gray-700 hover:text-gray-900">Blog / Insights</Link>
-            <a href="https://forms.gle/ZRn1Qi9LD8HvJ3cU8" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-700 hover:text-gray-900">Contact Us</a>
+            <Link href="/contact" className="text-sm text-gray-700 hover:text-gray-900">Contact Us</Link>
           </div>
           <div className="flex items-center">
             <Link href="/admissions" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
