@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Nav = () => {
   return (
@@ -6,7 +7,14 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold text-gray-900">
+            <Link href="/" className="flex items-center text-xl font-bold text-gray-900">
+              <Image
+                src="/logo.png"
+                alt="Sankofa Data Institute Logo"
+                width={40}
+                height={40}
+                className="mr-2"
+              />
               Sankofa Data Institute
             </Link>
           </div>
