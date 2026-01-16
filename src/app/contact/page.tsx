@@ -19,7 +19,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-gray-700">info@sankofadata.org</p>
+                  <p className="text-gray-700">wonderbediako@gmail.com</p>
                   <p className="text-sm text-gray-500">General inquiries and partnerships</p>
                 </div>
               </div>
@@ -30,8 +30,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold">Phone</h3>
-                  <p className="text-gray-700">+1 (555) 123-4567</p>
-                  <p className="text-sm text-gray-500">Mon-Fri, 9AM-6PM EST</p>
+                  <p className="text-gray-700">+233244387424 / 0505223732</p>
+                  <p className="text-sm text-gray-500">Mon-Fri, 9AM-6PM GMT</p>
                 </div>
               </div>
 
