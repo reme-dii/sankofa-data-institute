@@ -17,7 +17,7 @@ const Nav = () => {
     { name: 'Faculty & Mentors', href: '/faculty' },
     { name: 'Community & Impact', href: '/community' },
     { name: 'Blog / Insights', href: '/blog' },
-    { name: 'Contact Us', href: '/#contact' },
+    { name: 'Contact Us', href: '/contact' },
   ];
 
   return (
@@ -74,8 +74,8 @@ const Nav = () => {
                   key={link.name}
                   href={link.href}
                   className={`text-xs px-2 py-2 rounded-md transition-colors ${isActive
-                      ? 'text-blue-600 font-semibold bg-blue-50'
-                      : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+                    ? 'text-blue-600 font-semibold bg-blue-50'
+                    : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
                     }`}
                 >
                   {link.name}
@@ -101,8 +101,8 @@ const Nav = () => {
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === link.href
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+                  ? 'text-blue-600 bg-blue-50'
+                  : 'text-gray-700 hover:text-gray-900 hover:bg-gray-50'
                   }`}
               >
                 {link.name}

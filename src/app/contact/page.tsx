@@ -1,3 +1,5 @@
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 export default function Contact() {
   return (
     <div className="min-h-screen py-16">
@@ -14,36 +16,36 @@ export default function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mt-1 mr-4">
-                  <span className="text-white text-sm">📧</span>
+                <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                  <FaEnvelope className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Email</h3>
+                  <h3 className="font-semibold text-lg">Email</h3>
                   <p className="text-gray-700">wonderbediako@gmail.com</p>
                   <p className="text-sm text-gray-500">General inquiries and partnerships</p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center mt-1 mr-4">
-                  <span className="text-white text-sm">📞</span>
+                <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                  <FaPhone className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Phone</h3>
-                  <p className="text-gray-700">+233244387424 / 0505223732</p>
+                  <h3 className="font-semibold text-lg">Phone</h3>
+                  <p className="text-gray-700">+233 24 438 7424 / 050 522 3732</p>
                   <p className="text-sm text-gray-500">Mon-Fri, 9AM-6PM GMT</p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="w-6 h-6 bg-purple-600 rounded-full flex items-center justify-center mt-1 mr-4">
-                  <span className="text-white text-sm">📍</span>
+                <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mt-1 mr-4 shrink-0">
+                  <FaMapMarkerAlt className="w-5 h-5 text-purple-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Address</h3>
+                  <h3 className="font-semibold text-lg">Address</h3>
                   <p className="text-gray-700">
                     Sankofa Data Institute<br />
-                    123 Innovation Drive<br />
+                    ROSA Street, GE<br />
                     Accra, Ghana
                   </p>
                 </div>
@@ -53,17 +55,17 @@ export default function Contact() {
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700">
-                  <span>📘</span>
+                <a href="#" className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+                  <FaFacebook className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-blue-400 text-white rounded-full flex items-center justify-center hover:bg-blue-500">
-                  <span>🐦</span>
+                <a href="#" className="w-10 h-10 bg-blue-400 text-white rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                  <FaTwitter className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700">
-                  <span>📷</span>
+                <a href="#" className="w-10 h-10 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors">
+                  <FaInstagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700">
-                  <span>▶️</span>
+                <a href="https://www.linkedin.com/company/sankofa-data-institute" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[#0077b5] text-white rounded-full flex items-center justify-center hover:bg-[#006097] transition-colors">
+                  <FaLinkedin className="w-5 h-5" />
                 </a>
               </div>
             </div>
